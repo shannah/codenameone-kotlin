@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!--build_version=1.4-->
+
+
+    <project name="CN1Wrapper" default="cn1lib" basedir=".">
+      <target name="cn1lib" description="Wrap lib directory contents as cn1lib">
+        <zip basedir="lib" compress="true" destfile="kotlin-runtime.cn1lib" />
+      </target>
+    </project>

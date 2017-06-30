@@ -1,0 +1,37 @@
+= Codename One Kotlin Runtime Library
+
+This library provides support for https://kotlinlang.org/[Kotlin] in https://www.codenameone.com[Codename One].
+
+== Requirements
+
+. Currently development/compilation must be performed in IntelliJ IDEA
+
+== Supported Runtime Platforms
+
+This should work in all platforms.
+
+== Installation
+
+Copy the the kotlin-runtime.cn1lib into your project's lib directory, and select "Codename One" -> "Refresh CN1Libs".
+
+or
+
+Install using the Extensions section of Codename One settings.
+
+== Usage
+
+As long as your project includes this runtime library, you should be able to add Kotlin classes and files directly inside your Codename One project when using IntelliJ IDE.
+If you don't include this library and your project includes Kotlin code, then your app will still work in the simulator.  It will fail when you try to build for device though.  Adding this
+library to your project will resolve such build errors.
+
+== Building from Source
+
+1. Copy the kotlin-runtime.jar into the lib directory and rename it "main.zip"
+2. Copy the kotlin-runtime-sources.jar into the lib directory and rename it "stubs.zip"
+3. Run the build.xml ANT file.  (e.g. from command line: `ant`)
+4. This will produce the kotlin-runtime.cn1lib file inside this main directory.
+
+== Links
+
+. https://kotlinlang.org/[Kotlin Homepage]
+. https://www.codenameone.com/[Codename One Homepage]
