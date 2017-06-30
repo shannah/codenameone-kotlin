@@ -5,6 +5,7 @@ This library provides support for https://kotlinlang.org/[Kotlin] in https://www
 == Requirements
 
 . Currently development/compilation must be performed in IntelliJ IDEA
+. The latest Codename One plugin installed (Actually, at time of writing the plugin with support for this hasn't been released yet.. will be released July 7, 2017).
 
 == Supported Runtime Platforms
 
