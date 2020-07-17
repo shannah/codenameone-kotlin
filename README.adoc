@@ -27,10 +27,8 @@ library to your project will resolve such build errors.
 
 == Building from Source
 
-1. Copy the kotlin-runtime.jar into the lib directory and rename it "main.zip"
-2. Copy the kotlin-runtime-sources.jar into the lib directory and rename it "stubs.zip"
-3. Run the build.xml ANT file.  (e.g. from command line: `ant`)
-4. This will produce the kotlin-runtime.cn1lib file inside this main directory.
+1. Replace the jars of the kotlin-jars directory with the jars for the version of the kotlin stdlib that you want to include in the cn1lib.
+2. Run `ant`
 
 == Links
 
