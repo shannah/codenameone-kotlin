@@ -30,6 +30,10 @@ library to your project will resolve such build errors.
 1. Replace the jars of the kotlin-jars directory with the jars for the version of the kotlin stdlib that you want to include in the cn1lib.
 2. Run `ant`
 
+== Tests
+
+See the https://github.com/shannah/CN1KotlinTests[CN1KotlinTests project] for unit tests, which are being adapted from the tests in the official Kotlin repository.
+
 == Links
 
 . https://kotlinlang.org/[Kotlin Homepage]
