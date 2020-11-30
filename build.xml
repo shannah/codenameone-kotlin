@@ -8,4 +8,7 @@
   		<zipgroupfileset dir="kotlin-jars" includes="*.jar"/>
   	</zip>
   </target>
+  <target name="compile-overrides">
+	  <ant dir="StdlibOverrides" useNativeBaseDir="true"/>
+  </target>
 </project>
